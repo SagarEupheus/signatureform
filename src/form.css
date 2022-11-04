@@ -1,0 +1,27 @@
+.intro {
+  height: 100vh;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #fa709a;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1))
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.shadow{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: linear-gradient(to bottom right, rgb(227 112 250), rgb(64 140 254 / 41%));
+  /* background: linear-gradient(to bottom right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1)); */
+}
